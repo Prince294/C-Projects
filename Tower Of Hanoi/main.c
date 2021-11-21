@@ -544,7 +544,9 @@ void main()
     tower(Disk);
     disk(Disk);
 
-    gotoxy(0, 30);
     TOH(Disk, 'A', 'B', 'C');
+    
+    gotoxy(55,(Disk*3) + 15);
+    printf("Game Completed");
     getch();
 }
